@@ -8,6 +8,10 @@ We use Track 3 of the 2019 IEEE GRSS Data Fusion Contest (DFC2019), which includ
 - RPC camera metadata
 - Digital Surface Models (DSMs) as ground truth heightmaps
 
+## Results
+[![Watch the video](https://img.youtube.com/vi/9ljRhNIM--o/0.jpg)](https://www.youtube.com/watch?v=9ljRhNIM--o)
+
+
 ## Team 
 - Jeremy Fischer
 - Daniel Won
