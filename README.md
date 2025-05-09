@@ -17,8 +17,16 @@ Our method leverages VGGT's powerful single-pass capability to estimate camera p
   - Multi-stage optimization prioritizing high-confidence points
   - Preservation of physical constraints throughout optimization
     
-**Click to watch the video on youtube**
-[![Click to watch the video on youtube](https://img.youtube.com/vi/9ljRhNIM--o/0.jpg)](https://www.youtube.com/watch?v=9ljRhNIM--o)
+## 📺 Watch the Demo Video of VGGT + Bundle Adjustment 3D-Reconstruction
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=9ljRhNIM--o" target="_blank">
+    <img src="https://img.youtube.com/vi/9ljRhNIM--o/0.jpg" alt="Watch the video on YouTube" width="600">
+  </a>
+</p>
+
+➡️ **Click the image above to watch the full video on YouTube.**
+
 
 
 ## Team 
