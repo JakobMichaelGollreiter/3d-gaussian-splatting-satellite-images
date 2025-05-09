@@ -16,7 +16,8 @@ Our method leverages VGGT's powerful single-pass capability to estimate camera p
   - Differentiable reprojection with robust loss functions
   - Multi-stage optimization prioritizing high-confidence points
   - Preservation of physical constraints throughout optimization
-Click to watch the video on youtube
+  - 
+**Click to watch the video on youtube**
 [![Click to watch the video on youtube](https://img.youtube.com/vi/9ljRhNIM--o/0.jpg)](https://www.youtube.com/watch?v=9ljRhNIM--o)
 
 
