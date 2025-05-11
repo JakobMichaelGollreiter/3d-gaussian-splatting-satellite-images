@@ -1,33 +1,24 @@
-# 3d-gaussian-splatting-satellite-images
-## Overview 
-This project explores the application of 3D Gaussian Splatting (3DGS) for reconstructing 3D structures from sparse satellite imagery. Using the DFC2019 Track 3 dataset, we aim to generate accurate 3D reconstructions from limited multi-view satellite images (10-20 views per scene) with varying lighting and quality conditions.
-## Dataset 
-We use Track 3 of the 2019 IEEE GRSS Data Fusion Contest (DFC2019), which includes:
-- 110 scenes with approximately 20 multi-angle satellite images per scene
-- RGB images
-- RPC camera metadata
-- Digital Surface Models (DSMs) as ground truth heightmaps
+# 3D Reconstruction from Satellite Images
+
+This repository contains the code and documentation for our CVPR 2025 paper on 3D reconstruction from sparse satellite imagery (10-20 views per scene).
+
+## Key Contributions
+- Comparison of three reconstruction approaches:
+  - 3D Gaussian Splatting with derived camera parameters
+  - VGGT with bundle adjustment optimization
+  - DUSt3R with optimized view selection
+- Novel camera selection methodology using Fisher information theory
+- Practical reconstruction from challenging satellite imagery conditions
+
+## Methods
+1. **3DGS**: Traditional Gaussian splatting adapted for satellite views
+2. **VGGT+BA**: Transformer-based geometry estimation with bundle adjustment
+3. **DUSt3R**: End-to-end neural reconstruction with optimal view selection
 
 ## Results
-### Results VGGT + Bundle Adjustment
-This video demonstrates our  approach to 3D scene reconstruction that combines Visual Geometry Grounding Transformer (VGGT) with classical bundle adjustment optimization. 
-Our method leverages VGGT's powerful single-pass capability to estimate camera parameters and generate 3D point clouds, then refines these results through our specialized bundle adjustment implementation. The key innovations include:
-  - Confidence-based point selection for reliable reconstruction
-  - Differentiable reprojection with robust loss functions
-  - Multi-stage optimization prioritizing high-confidence points
-  - Preservation of physical constraints throughout optimization
-    
-## 📺 Watch the Demo Video of VGGT + Bundle Adjustment 3D-Reconstruction
-
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=9ljRhNIM--o" target="_blank">
-    <img src="https://img.youtube.com/vi/9ljRhNIM--o/0.jpg" alt="Watch the video on YouTube" width="600">
-  </a>
-</p>
-
-➡️ **Click the image above to watch the full video on YouTube.**
-
-
+- VGGT+BA produces most geometrically accurate results
+- Optimized DUSt3R offers most reliable reconstructions
+- View selection improves all methods' performance
 
 ## Team 
 - Jeremy Fischer
