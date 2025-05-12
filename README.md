@@ -1,6 +1,6 @@
 # 3D Reconstruction from Satellite Images
 
-This repository contains the code and documentation for our CVPR 2025 paper on 3D reconstruction from sparse satellite imagery (10-20 views per scene).
+This repository contains the code and documentation for our paper on 3D reconstruction from sparse satellite imagery (10-20 views per scene). Link to the webpage of the project: https://jflyer45.github.io/cs280-project-webpage/
 
 ## Key Contributions
 - Comparison of three reconstruction approaches:
